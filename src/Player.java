@@ -1,6 +1,7 @@
 import java.awt.*;
 
 public class Player {
+    // attribut
     private int posX;
     private int posY;
     private int width;
@@ -8,6 +9,7 @@ public class Player {
     private Image image;
     private int velocityY;
 
+    // constructor
     public Player(int posX, int posY, int width, int height, Image image){
         this.posX = posX;
         this.posY = posY;
@@ -17,6 +19,7 @@ public class Player {
         this.velocityY = 0;
     }
 
+    // getter dan setter
     public int getPosX(){
         return posX;
     }

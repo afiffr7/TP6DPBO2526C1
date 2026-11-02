@@ -1,6 +1,7 @@
 import java.awt.*;
 
 public class Pipe {
+    // attribut
     private int posX;
     private int posY;
     private int width;
@@ -9,6 +10,7 @@ public class Pipe {
     private int velocityX;
     boolean passed;
 
+    // constructor
     public Pipe(int posX, int posY, int width, int height, Image image, int velocityX) {
         this.posX = posX;
         this.posY = posY;
@@ -20,6 +22,7 @@ public class Pipe {
         this.passed = false;
     }
 
+    // getter dan setter
     public int getPosX() {
         return posX;
     }
